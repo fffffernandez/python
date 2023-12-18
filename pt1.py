@@ -44,9 +44,3 @@ else:
 
 GANADOR=pokemon1
 print(f"el ganador de la batalla es " +GANADOR +fraseAleatoria())
-
-
-
-
-
-
