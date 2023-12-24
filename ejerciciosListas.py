@@ -43,8 +43,8 @@ for lista1Al20 in range(1,20):
 lista=[]
 numero1=int(input("Dime un número: "))
 numero2=int(input("Dime otro número: "))
-for num in range(numero1, numero2):
+for num in range(numero1, numero2+1):
     lista.append(num)
-for num in range(numero2, numero1):
+for num in range(numero2+1, numero1):
     lista.append(num)
 print(lista)
